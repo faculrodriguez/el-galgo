@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1.5px solid rgb(192, 37, 43);
+}
+
+img {
+    width: 250px;
+}
+
+li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;    
+    margin: 1rem;
+    cursor: pointer;
+    color: rgb(192, 37, 43);
+}
+
+li:hover{
+    color: red ;
+}
