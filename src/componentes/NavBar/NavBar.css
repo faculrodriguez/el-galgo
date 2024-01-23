@@ -1,24 +1,35 @@
+/* NavBar.css */
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: 1.5px solid rgb(192, 37, 43);
-}
-
-img {
+  }
+  
+  img {
     width: 250px;
-}
-
-li{
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav ul li a:hover {
+    color: red;
+  }
+  
+  nav ul li {
     display: inline-block;
     font-family: sans-serif;
     font-weight: bold;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     margin: 1rem;
-    cursor: pointer;
     color: rgb(192, 37, 43);
-}
-
-li:hover{
-    color: red ;
-}
+  }
+  
+  nav ul li:hover {
+    color: red;
+  }
+  

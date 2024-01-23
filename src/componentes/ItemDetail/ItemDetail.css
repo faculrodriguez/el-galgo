@@ -1,0 +1,15 @@
+.contenedorItem {
+    background-color: rgb(255, 229, 229);
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid rgb(192, 37, 43);
+    margin: 3rem;
+}
+
+h2, h3 {
+    color: rgb(192, 37, 43);
+}
+
+.imgDetail {
+    width: 30vw;
+}
