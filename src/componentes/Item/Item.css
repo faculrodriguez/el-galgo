@@ -1,24 +1,23 @@
 .cardProducto {
-    background-color: rgb(203, 202, 202);
-    border-radius: 3px;
-    width: 15rem;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  background-color: rgb(203, 202, 202);
+  border-radius: 3px;
+  width: 15rem;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .cardProducto a,
 .cardProducto h3 {
-    text-decoration: none;
-    color: inherit;
-    color: rgb(192, 37, 43);
+  text-decoration: none;
+  color: inherit;
+  color: rgb(192, 37, 43);
 
-  }
-  
-  .cardProducto a:hover {
-    color: red;
-  }
+}
 
+.cardProducto a:hover {
+  color: red;
+}

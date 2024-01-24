@@ -86,7 +86,7 @@ const productos = [
         precio: 3600,
         img: "../img/bandeja1.jpg",
         stock: 100,
-        desc:"Capacidad de de carga máxima: 4lt."
+        desc: "Capacidad de de carga máxima: 4lt."
     },
 
     {
@@ -96,7 +96,7 @@ const productos = [
         precio: 3200,
         img: "../img/bandeja2.jpg",
         stock: 100,
-        desc:"Capacidad de de carga máxima: 4lt."
+        desc: "Capacidad de de carga máxima: 4lt."
     },
 
     {
@@ -106,7 +106,7 @@ const productos = [
         precio: 4600,
         img: "../img/bandeja3.png",
         stock: 100,
-        desc:"Capacidad de de carga máxima: 1lt."
+        desc: "Capacidad de de carga máxima: 1lt."
     },
 
     {
@@ -116,7 +116,7 @@ const productos = [
         precio: 4000,
         img: "../img/bandeja4.png",
         stock: 100,
-        desc:"Capacidad de de carga máxima: 1lt."
+        desc: "Capacidad de de carga máxima: 1lt."
     },
 
     {
@@ -126,7 +126,7 @@ const productos = [
         precio: 3000,
         img: "../img/bandeja5.jpg",
         stock: 100,
-        desc:"Exclusivo imán sujeta pincel. Capacidad de de carga máxima: 1lt"
+        desc: "Exclusivo imán sujeta pincel. Capacidad de de carga máxima: 1lt"
     },
 
     {
@@ -163,7 +163,7 @@ const productos = [
 ]
 
 export const getProductos = () => {
-    return new Promise ((resolve) => {
+    return new Promise((resolve) => {
         setTimeout(() => {
             resolve(productos);
         }, 100)
